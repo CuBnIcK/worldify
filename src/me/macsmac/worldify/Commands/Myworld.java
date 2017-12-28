@@ -1,4 +1,4 @@
-package Commands;
+package me.macsmac.worldify.Commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.World;
@@ -8,7 +8,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import Helpers.CastPlayer;
+import me.macsmac.worldify.Helpers.CastPlayer;
 
 public class Myworld implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
@@ -29,7 +29,7 @@ public class Myworld implements CommandExecutor {
 			player.sendMessage("Generating world");
 				
 			WorldCreator creator = new WorldCreator(world_name);
-				
+			
 			creator.environment(World.Environment.NORMAL);
 			creator.generateStructures(true);
 				

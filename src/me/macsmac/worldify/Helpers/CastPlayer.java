@@ -1,4 +1,4 @@
-package Helpers;
+package me.macsmac.worldify.Helpers;
 
 import org.bukkit.entity.Player;
 

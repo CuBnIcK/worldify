@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import Commands.Myworld;
+import me.macsmac.worldify.Commands.Myworld;
 
 public class Worldify extends JavaPlugin {
 	private Logger log = getLogger();
