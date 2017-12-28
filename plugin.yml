@@ -1,0 +1,11 @@
+name: Worldify
+main: me.macsmac.worldify.Worldify
+version: 0.1.0
+description: s
+author: macsmac
+
+commands:
+   myworld:
+      description: Teleports to your world
+      permission: Worldify.basic
+      usage: /<command>
