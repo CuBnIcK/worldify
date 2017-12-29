@@ -14,7 +14,7 @@ public class Worldify extends JavaPlugin {
 			PushCommand(Myworld.class, "myworld");
 			
 			PluginManager manager = getServer().getPluginManager();
-		    manager.registerEvents(new Events(this), this);
+			manager.registerEvents(new Events(this), this);
 		} catch (Exception e) {}
 	}
 
